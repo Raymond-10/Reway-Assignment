@@ -1,0 +1,515 @@
+// Navbar
+.main-nav {
+  display: flex;
+  justify-content: space-around;
+  .navbar-brand {
+    margin-left: 34px;
+
+  }
+  .navbar-collapse {
+    width: 100%;
+    justify-content: space-around;
+    .navbar-sign-up-link {
+      color: #00A2FF;
+      font-family: Suez one;
+      font-size: 17px;
+    }
+  }
+  .navbar-info {
+    display: flex !important;
+    justify-content: center;
+    a {
+      font-size: 17px;
+      font-family: Suez one;
+      margin-right: 0;
+    }
+    .navbar-blue {
+      color: #00A2FF;
+    }
+
+  }
+  .navbar-icons {
+    i {
+      color: #828282;
+      font-size: 24px;
+      margin-right: 18px;
+    }
+  }
+ button {
+  color: #00A2FF;
+  border: 3px solid #00A2FF;
+  font-family: "Suez One";
+ }
+}
+
+//Navbar 
+.navigation {
+  .navbar-brand {
+    margin-right: 70px;
+  }
+  .navbar-collapse {
+    display: flex !important;
+    justify-content: space-between;
+    .navbar-info{
+      font-family: "Suez One";
+      font-size: 17px;
+      .navbar-blue {
+        color: #00A2FF;
+      }
+    }
+    .navbar-icons {
+      i {
+        color: #828282;
+        font-size: 24px;
+        margin-right: 35px;
+      }
+    }
+  }
+  .navbar-sign-up {
+    margin-right: 30px;
+    .navbar-sign-up-link {
+      color: #00A2FF;
+      font-family: Suez one;
+
+    }
+    button {
+      border: 3px solid #00A2FF;
+      color: #00A2FF;
+      font-family: Suez one;
+    }
+  }
+}
+
+// Sub Header
+.sub-header {
+  background-color: #EAEAEA;
+  .sub-header-col-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #828282;
+    font-family: "Suez One";
+  }
+  .sub-header-col-2 {
+    display: flex;
+    justify-content: center;
+    button {
+      border: 3px solid #00A2FF;
+      color: #00A2FF;
+      font-family: "Suez One";
+    }
+    p {
+      font-family: "Suez One";
+      color: #828282;
+    }
+  }
+}
+
+// Carousel
+.preview-images {
+  position: relative;
+  display: flex !important;
+  justify-content: flex-start;
+  margin: 0px 2px;
+  .carousel-image {
+    padding: 10px !important;
+  }
+}
+
+
+// Main content
+.main-content {
+  margin-top: 45px;
+  .sub-main-content {
+    margin-left: 22px;
+    .breadcrumbs {
+      margin-left: 24px;
+      font-family: 'PT Sans';
+      li {
+        padding-right: 5px;
+      }
+      .blue-text {
+        color: #00A2FF;
+      }
+      .fa-chevron-right {
+        padding-right: 5px;
+      }
+    }
+  }
+}
+
+
+// Summer Sale Banner
+.summer-sale-banner {
+  background-image: url("../images/image\ 3.png");
+  padding: 7px 0;
+  .summer-sale-1 {
+    padding-left: 60px;
+    font-family: "Suez One";
+  }
+  h1 {
+    font-size: 30px;
+    color: #fff;
+  }
+  h3 {
+    font-size: 20px;
+    color: #fff;
+  }
+  .summer-sale-2 {
+    display: flex;
+    padding-left: 50px;
+    align-items: center;
+  }
+  .btn-outline-primary {
+    color: #fff;
+    border: 3px solid #fff;
+    padding: 3px 30px;
+    font-family: "Suez One";
+  }
+}
+
+// Information block
+.information-card {
+  border: 6px solid #00A2FF;
+  padding: 28px 29px;
+  .card-title {
+    font-family: "Suez One";
+    color: #111111;
+  }
+  .title-text {
+    font-family: "PT Sans";
+    color: #82828280 !important;
+    .fa-store-alt {
+      padding-right: 5px;
+    }
+  }
+  .title-text-2 {
+    color: #82828280 !important;
+    font-family: "PT Sans";
+    font-size: 12px;
+  }
+  .about-product {
+    margin-left: 10px;
+    .about-1 {
+      font-family: "PT Sans";
+      li {
+        padding-bottom: 5px;
+      }
+    }
+    .about-2 {
+      font-family: "PT Sans";
+      font-weight: 700;
+      margin-left: 12px;
+      li {
+        padding-bottom: 5px;
+      }
+    }
+    .about-3 {
+      font-family: "PT Sans";
+      color: #828282;
+      font-size: 14px;
+    }
+  }
+  .btn-primary {
+    padding: 0px 8px;
+    background-color: #00A2FF;
+    border-color: #00A2FF;
+    font-family: "PT Sans";
+    font-style: italic;
+  }
+  .product-info {
+    list-style: none;
+    padding-left: 0;  
+  }
+  .item-color {
+    display: flex;
+    span {
+      position: relative;
+      margin-right: 15px;
+  }
+  }
+  .item-color span:before {
+    content: '';
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: brown;
+    position: absolute;
+    top: 8px;
+  }
+}
+
+.item-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  a {
+    height: unset;
+  }
+  .price {
+    font-family: "Suez One";
+    display: flex;
+    flex-direction: column;
+    .discount {
+      position: relative;
+    }
+    .discount:before {
+      content: '';
+      width: 40px;
+      height: 2px;
+      background-color: black;
+      transform: translate(20deg);
+      position: absolute;
+      transform: rotate(18deg);
+      top: 10px;
+    }
+  }
+}
+
+
+
+
+
+//Side Bar ----------------------------------------------------------
+// Side Bar Card
+.side-bar-content {
+  margin-top: 25px;
+}
+
+.side-bar-card {
+  border: 2px solid #00A2FF;
+  .card-header {
+    background-color: #00A2FF;
+    color: #fff;
+  }
+  .card-footer {
+    text-align: center;
+  }
+  button {
+    background-color: #00A2FF;
+    text-align: center;
+    padding: 11px 24px;
+    font-size: 20px;
+    border-radius: 0;
+  }
+}
+
+
+
+
+// Form
+.form {
+  width: 100%;
+  margin-top: 20px;
+  background-color: #EAEAEA;
+  padding: 20px 20px;
+  label {
+    color: #82828280;
+    font-family: "PT Sans";
+    font-size: 14px;
+    padding-left: 5px;
+  }
+  .form-select {
+    color: #82828280;
+    font-family: "PT Sans";
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.cart-button {
+  font-size: 30px;
+  border-radius: 0;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  font-family: "Suez One";
+  background-color: #00A2FF;
+  padding: 22px 30px;
+  i {
+    font-size: 25px;
+    padding-right: 10px;
+  }
+ }
+}
+
+// Newsletter
+.newsletter-card {
+  .card-header {
+    text-align: center;
+    background-color: #00A2FF;
+    border-color: #00A2FF;
+    .fa-envelope {
+      font-size: 40px;
+      color: #FFFFFF;
+   }
+   .fa-times {
+     position: absolute;
+     top: 10px;
+     right: 12px;
+     color: #fff;
+   }
+  }
+  .card-body {
+    background-color: #00A2FF;
+    h3 {
+      font-size: 20px;
+      font-family: "Suez One";
+      color: #fff;
+    }
+    label {
+      color: #FFFFFF;
+      font-family: "PT Sans";
+      font-size: 14px;
+      padding-left: 8px;
+      font-weight: 700;
+    }
+    .form-control {
+      border-radius: 0;
+      font-family: "PT Sans";
+      font-size: 14px;
+      font-weight: 700;
+      color: #82828280;
+    }
+  }
+  .card-footer {
+    background-color: #00A2FF;
+    border-color: #00A2FF;
+    padding-bottom: 15px;
+    button {
+      display: block;
+      margin: 0 auto;
+      color: #00A2FF;
+      background-color: #fff;
+      font-size: 20px;
+      font-family: "Suez One";
+      padding: 19px 52px;
+    }
+  }
+ }
+
+ // Product display
+
+ .product-display {
+  margin-left: 50px;
+  margin-bottom: 40px;
+  .product-heading {
+    h5 {
+      font-size: 20px;
+      font-family: "Suez One";
+    }
+    hr {
+      height: 2px;
+    }
+    .boots {
+      color: #00A2FF;
+    }
+  }
+  .product-cards {
+    .card {
+      border: none;
+    }
+    .card-title {
+      font-family: "Suez One";
+      font-size: 18px;
+    }
+    p {
+      font-family: "PT Sans";
+      font-weight: 700;
+    }
+    .fa-store-alt {
+      margin-right: 10px;
+    }
+    .boots {
+      color: #00A2FF;
+      font-family: "Suez One";
+    }
+    .price {
+      position: absolute;
+      bottom: 2%;
+      right: 7%;
+      color: #828282;
+      font-family: "PT Sans";
+    .fa-arrow-right {
+      margin-left: 8px;
+    }
+   }
+  }
+}
+   .label-success {
+    background-color: #00A2FF;
+    color: #fff;
+    width: 99px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    padding: 0px 4px;
+    border-radius: 5px;
+    font-family: "PT Sans";
+   }
+   .label-default {
+    width: 99px;
+    height: 32px;
+    background: rgba(0, 0, 0, 0.56);
+    color: #fff;
+    font-family: 'PT Sans';
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    padding: 4px 4px;
+    border-radius: 4px;
+   }
+
+//slider images 
+
+.preview-images {
+  display: flex;
+  flex-wrap: wrap;
+  >button {
+    width: 25%;
+  }
+}
+
+// Footer
+footer {
+  background-color: #4A4A4A;
+
+  .reway-footer {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+    h4 {
+      color: #fff;
+      font-size: 20px;
+    }
+    i {
+      font-size: 42px;
+      color: #FFFFFF;
+      margin-right: 36px;
+    }
+    p {
+      color: #fff;
+      opacity: 0.5;
+      margin-bottom: 8px;
+    }
+  }
+}
+
+
+// ---- Mobile ---
+
+@media (max-width: 768px) {
+  .navbar-info {
+    text-align: center;
+  }
+  .navbar-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .navbar-sign-up {
+    flex-direction: revert;
+    justify-content: center;
+    align-items: center;
+  }
+ }
